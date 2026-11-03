@@ -23,11 +23,7 @@ body {
     color: var(--text);
     min-height: 100vh;
     background-color: #0a0a0a;
-    background-image:
-        radial-gradient(circle at 15% 0%, rgba(227, 6, 19, 0.16) 0%, transparent 45%),
-        radial-gradient(circle at 100% 30%, rgba(227, 6, 19, 0.10) 0%, transparent 40%),
-        repeating-linear-gradient(135deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 1px, transparent 1px, transparent 26px),
-        linear-gradient(180deg, #0a0a0a 0%, #050505 100%);
+    background-image: url(icaur trail.png);
     background-attachment: fixed;
     background-size: cover, cover, auto, cover;
     background-repeat: no-repeat, no-repeat, repeat, no-repeat;
