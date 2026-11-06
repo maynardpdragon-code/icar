@@ -152,10 +152,9 @@ function getDB() {
 
         if (count === 0) {
             const defaults = [
-                { id: 'MG_ZS',  model: 'MG ZS',  plate: '', icon: '🚗' },
-                { id: 'MG_5',   model: 'MG 5',    plate: '', icon: '🚗' },
-                { id: 'MG_HS',  model: 'MG HS',   plate: '', icon: '🚙' },
-                { id: 'MG_3',   model: 'MG 3',    plate: '', icon: '🚗' },
+                { id: 'MG_ZS',  model: 'V27',  plate: '', icon: '🚗' },
+                { id: 'MG_5',   model: 'V23',    plate: '', icon: '🚗' },
+
             ];
 
             for (const c of defaults) {
